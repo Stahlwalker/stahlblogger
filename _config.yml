@@ -24,7 +24,7 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 
-permalink: none
+permalink: /stahlblogger/:categories/:title:output_ext
 comments: true
 
 defaults:
