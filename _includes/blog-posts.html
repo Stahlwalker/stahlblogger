@@ -8,7 +8,7 @@
                     {% for post in site.posts %}
                     <!-- Blog Post -->
                     <h2>
-                        <a href="{{ page.url }}{{ post.url }}">{{ post.title }}</a>
+                        <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
                     </h2>
                     <p class="lead">
                         by {{ post.author }}
@@ -19,7 +19,8 @@
                     <hr>
                     {% endif %}
                     {{ post.excerpt }}
-                    <a class="btn btn-primary" href="{{ page.url }}{{ post.url }}">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
+                    <a class="btn btn-primary" href="{{ site.url }}{{ post.url }}">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
+                    console.log(site.url)
     
                     <hr>                                            
                 {% endfor %}      
