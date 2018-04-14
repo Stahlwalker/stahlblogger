@@ -24,7 +24,7 @@ github_username:  Stahlwalker
 # Build settings
 markdown: kramdown
 
-# permalink: none
+permalink: none
 comments: true
 
 defaults:
