@@ -24,7 +24,7 @@ github_username:  Stahlwalker
 # Build settings
 markdown: kramdown
 
-permalink: /stahlblogger/:categories/:year/:month/:day/:title:output_ext
+permalink: /stahlblogger/:categories/:title:output_ext
 comments: true
 
 defaults:
