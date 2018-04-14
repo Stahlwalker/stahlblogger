@@ -19,7 +19,7 @@ description: "Getting it done blogger style"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://stahlwalker.github.io/stahlblogger/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  Stahlwalker
 
 # Build settings
 markdown: kramdown
