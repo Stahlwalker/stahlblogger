@@ -17,10 +17,10 @@ title: Stahlwalker
 email: Stahl1109@gmail.com
 description: "Getting it done blogger style"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.stahlwalker.net/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.stahlwalker.net/" # the base hostname & protocol for your site, e.g. http://example.com
 enforce_ssl: stahwalker.net
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  stahlwalker
 
 # Build settings
 markdown: kramdown
