@@ -25,7 +25,7 @@ github_username:  stahlwalker
 # Build settings
 markdown: kramdown
 
-permalink: none
+permalink: /:categories/:title
 comments: true
 
 defaults:
