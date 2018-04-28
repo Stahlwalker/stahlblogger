@@ -28,6 +28,12 @@ markdown: kramdown
 permalink: /:categories/:title
 comments: true
 
+# plugins:
+#   - jekyll-sitemap
+
+# gems: 
+#     - jekyll-sitemap
+
 defaults:
   -
     scope:
