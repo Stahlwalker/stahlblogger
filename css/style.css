@@ -804,3 +804,14 @@ footer .footer-manu ul li a {
 footer .footer-manu ul li a:hover {
   color: #000;
 }
+
+.well2 {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #ebeca369;
+  border: 1px solid #6a6b6a;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
