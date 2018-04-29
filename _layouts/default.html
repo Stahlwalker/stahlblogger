@@ -7,6 +7,12 @@
       if ((host == window.location.host) && (window.location.protocol != "https:"))
         window.location.protocol = "https";
     </script>
+
+<!-- execute collection tags -->
+    {% if site.tags != "" %}
+      {% include collecttags.html %}
+    {% endif %}
+
     <meta charset="utf-8">
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
