@@ -21,6 +21,9 @@ url: "https://stahlwalker.net/" # the base hostname & protocol for your site, e.
 enforce_ssl: stahwalker.net
 twitter_username: jekyllrb
 github_username:  stahlwalker
+# tag_page_layout: tag
+# tag_page_dir: blog/tags
+
 
 # Build settings
 markdown: kramdown
@@ -33,6 +36,9 @@ comments: true
 
 # gems: 
 #     - jekyll-sitemap
+
+plugins:
+    - jekyll/tagging
 
 defaults:
   -
