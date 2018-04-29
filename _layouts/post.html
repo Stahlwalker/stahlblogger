@@ -35,13 +35,7 @@ layout: default
                        <img class="img-responsive" src="{{ page.image }}" alt="{{ page.image }}">
                        {% endif %}
                     
-                       <br>
-                       <span>
-                        {% for tag in page.tags %}
-                          {% capture tag_name %}{{ tag }}{% endcapture %}
-                          <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
-                        {% endfor %}
-                      </span>
+                     
     
                     <hr>
     
@@ -52,6 +46,14 @@ layout: default
                     
                    {{ page.content }}
     
+                   <br>
+                   <span>
+                    {% for tag in page.tags %}
+                      {% capture tag_name %}{{ tag }}{% endcapture %}
+                      <a href="/tag"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+                    {% endfor %}
+                  </span>
+
                     <hr>
                     {% if site.comments %}
                     {% include comments.html %}
