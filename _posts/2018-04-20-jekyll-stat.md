@@ -4,6 +4,7 @@ date: 2018-04-23 15:30
 image: https://ymatuhin.ru/assets/img/jekyll/jekyll-logo.png
 lead: "Benefits of using static blog posts through Jekyll." 
 subtitle: Tips for building a blog using Jekyll.
+tags: footer privacy 
 ---
 #### Experience with the terminal is a must:
  

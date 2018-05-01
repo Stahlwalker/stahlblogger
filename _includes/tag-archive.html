@@ -8,5 +8,5 @@
 {% for temptag in sortedtemptags %}
   {% assign tagitems = temptag | split: '#' %}
   {% capture tagname %}{{ tagitems[1] }}{% endcapture %}
-  <a href="/tag/{{ tagname }}"></a><code class="highligher-rouge"><nobr>{{ tagname }}</nobr></code></a>
+  <code class="highligher-rouge"><nobr>{{ tagname }}</nobr></code>
 {% endfor %}
