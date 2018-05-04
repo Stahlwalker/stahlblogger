@@ -31,6 +31,7 @@ markdown: kramdown
 permalink: /:categories/:title
 comments: true
 
+
 # plugins:
 #   - jekyll-sitemap
 
@@ -49,6 +50,7 @@ defaults:
       layout: "post"
       author: "Lucas Stahl"
       category: "jekyll"
+      timezone: America/Chicago
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
